@@ -51,3 +51,8 @@
 	--bs-btn-active-bg: #e0bb27 !important;
 	--bs-btn-active-border-color: #e0be35 !important;
 }
+
+:root {
+	--bs-link-color: #000 !important;
+  --bs-link-hover-color: #e0bb27 !important;
+}
