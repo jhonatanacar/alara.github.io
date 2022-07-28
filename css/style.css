@@ -7,3 +7,47 @@
 .bg-fter{
     background-color:#232323 !important;
 }
+/*
+.imag-cropped{
+  height: 35% !important;
+  object-fit:cover;
+}
+*/
+.bocy {
+  object-fit: cover;
+  object-position:top; /* Center the image within the element */
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
+}
+.bocy1 {
+  object-fit: cover;
+  object-position:center; /* Center the image within the element */
+  width: 100%;
+  max-height: 600px;
+}
+.mt-n1{
+  margin-top: -4%;
+}
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #ffce0c !important;
+    color: #fff !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	color: #000 !important;
+}
+.dropdown-menu {
+	--bs-dropdown-link-active-bg: #dbb417 !important;
+}
+
+.btn-primary {
+	--bs-btn-bg: #dbb417 !important;
+	--bs-btn-border-color: #dbb417 !important;
+	--bs-btn-hover-bg: #c09c0a !important;
+	--bs-btn-hover-border-color: #c5a214 !important;
+	--bs-btn-focus-shadow-rgb: 194,165,49 !important;
+	--bs-btn-active-bg: #e0bb27 !important;
+	--bs-btn-active-border-color: #e0be35 !important;
+}
