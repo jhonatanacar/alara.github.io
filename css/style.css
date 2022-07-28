@@ -1,1 +1,9 @@
-# Empty CSS file for your own CSS
+.bg-mainpage {
+    background-color: #ffce0c !important;
+  }
+.bg-gray {
+    background-color: #eeeeee !important;
+  }
+.bg-fter{
+    background-color:#232323 !important;
+}
