@@ -107,7 +107,7 @@
 			</div>
 			<div class="col-md-4 bg-mainpage text-center">
 				<h3 class="p-4 text-white font-weight-bold h1">
-					NOSOTROS
+					CONTACTANOS
 				</h3>
 			</div>
 			<div class="col-md-4">
@@ -117,33 +117,51 @@
 
 	<div class="container">
         <div class="row pb-4">
-			<div class="col-md-6">
-                <p class="h5"><b>TITULO 1 </b></p>
-                <p class="h5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra euismod lectus in pulvinar. In iaculis velit at fringilla finibus. Aliquam et sem id diam malesuada ornare. Integer mollis justo viverra augue varius tincidunt. In blandit justo sit amet facilisis iaculis. Phasellus pretium viverra dolor in consequat. Phasellus in ex a nunc mattis ornare ut non nulla. Sed lobortis vestibulum nisi, vel aliquam erat ullamcorper nec.</p>
-			</div>
-			<div class="col-md-6">
-                <img alt="Bootstrap Image Preview" class="w-100" src="./img/p1.png">
-			</div>
-		</div>
-        <div class="row pb-4">
             <div class="col-md-6">
-                <img alt="Bootstrap Image Preview" class="w-100" src="./img/p1.png">
+                <p class="h1"><b>Datos de contacto</b></p>
+                <p class="h3"><b>Nuestros datos</b></p>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p class="h3"><b>Numero</b></p>
+                <a href="tel:+51917508826" target="_blank" class="text-dark">
+					<i class="fa-solid fa-phone"></i><span class="social-item-label"> Davis Tolentino (51) 917 508 826</span>
+				</a>
+                <br>
+                <p class="h3"><b>Correos</b></p>
+                <a href="mailto:ventas@alararadiation.com" target="_blank" class="text-dark">
+					<i class="fa-solid fa-envelope"></i><span class="social-item-label"> ventas@alararadiation.com</span>
+				</a><br>
+                <a href="mailto:davisrtm@alararadiation.com" target="_blank" class="text-dark">
+					<i class="fa-solid fa-envelope"></i><span class="social-item-label"> davisrtm@alararadiation.com</span>
+				</a>
 			</div>
-			<div class="col-md-6">
-                <p class="h5"><b>TITULO 1 </b></p>
-                <p class="h5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra euismod lectus in pulvinar. In iaculis velit at fringilla finibus. Aliquam et sem id diam malesuada ornare. Integer mollis justo viverra augue varius tincidunt. In blandit justo sit amet facilisis iaculis. Phasellus pretium viverra dolor in consequat. Phasellus in ex a nunc mattis ornare ut non nulla. Sed lobortis vestibulum nisi, vel aliquam erat ullamcorper nec.</p>
-			</div>
-		</div>
-        <div class="row pb-4">
-			<div class="col-md-12">
-                <p class="h5 text-justify">
-                    Proin cursus risus efficitur, ullamcorper ligula eu, porttitor erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas luctus gravida quam, ac vestibulum ex ultrices ut. In hac habitasse platea dictumst. Cras hendrerit bibendum quam, ac mollis nisi pellentesque at. Mauris ut purus arcu. Suspendisse ultrices venenatis neque non ornare.
-                    <br> <br>
-Curabitur dapibus, nulla sed sollicitudin consectetur, nibh velit suscipit erat, id placerat ligula tellus porttitor massa. Pellentesque eget accumsan erat. Proin ut lectus aliquam, rhoncus neque eu, tristique dolor. Etiam quis nibh eget arcu congue viverra et ut orci. Sed sagittis ac tellus et sollicitudin. Suspendisse elit libero, hendrerit ac nulla eu, efficitur imperdiet dui. Quisque pulvinar neque a massa sagittis tincidunt. Fusce lobortis luctus nulla in bibendum. Praesent ac placerat nisl. Proin aliquam ex aliquet nisi tincidunt suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer at nisi eu lectus ultrices euismod sit amet ut mauris. Cras varius eleifend magna. Morbi vestibulum tempor ultrices. 
-                </p>
+			<div class="col-md-6"><!-- NOMBRE - TELEFONO - CORREO - CONSULTA -->
+                <br>
+                <form class="row">
+                    <div class="mb-3">
+                        <input type="text" class="form-control py-3" id="exampleFormControlInput1" placeholder="Nombres" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control py-3" id="exampleFormControlInput1" placeholder="999-999-999" pattern="[9]{1}[0-9]{2}-[0-9]{3}-[0-9]{3}" required>
+                    </div>  
+                    <div class="mb-3">
+                        <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="correo@example.com" required>
+                    </div>  
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Su consulta..." required></textarea>
+                    </div>    
+                    <div class="mb-3 d-flex justify-content-center">
+                        <a href="#" class="btn btn-primary px-5">Enviar Consulta</a>
+                    </div>                 
+                </form>
 			</div>
 		</div>
 	</div>
+    <div class="container-fluid px-0 py-0">
+        <div id="map-container-google-2" class="z-depth-1-half map-container-2">
+            <iframe src="https://maps.google.com/maps?q=Av%20Oscar%20R%20Benavides%203046&t=&z=14&ie=UTF8&iwloc=B&output=embed" frameborder="0" allowfullscreen></iframe>
+            <!-- <iframe src="https://maps.google.com/maps?width=720&height=600&hl=en&q=Av%20Oscar%20R%20Benavides%203046+()&t=&z=14&ie=UTF8&iwloc=B&output=embed" frameborder="0" allowfullscreen></iframe>-->
+        </div>
+    </div>
 	<div class="container-fluid bg-fter text-white py-3">
 		<div class="row">
 			<div class="col-md-3">
@@ -196,7 +214,7 @@ Curabitur dapibus, nulla sed sollicitudin consectetur, nibh velit suscipit erat,
 		</div>
 		</span>
 	</div>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<a href="https://api.whatsapp.com/send?phone=51966007287&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="floaty" target="_blank">
 	<i class="fa fa-whatsapp my-floaty"></i>
 	</a>
